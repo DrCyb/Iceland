@@ -9,4 +9,21 @@ body{
 
 .header{
     background-color: #fff;
+    padding: 20px;
+   
+}
+
+.logo{
+    text-align: left;
+}
+
+.menu{
+    text-align: right;
+    color: #b5b5b4;
+    font-size: 20px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
 }
