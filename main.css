@@ -27,3 +27,7 @@ h4{
     font-weight: bold;
     font-size: 20px;
 }
+
+.bg{
+    background-image: url(img/bc.jpg);
+}
