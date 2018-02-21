@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 *{
     box-sizing: border-box;
 }
@@ -5,6 +7,7 @@
 body{
     background-color: #efeff0;
     padding: 30px;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -20,17 +23,33 @@ body{
 
 .logo{
     text-align: left;
+    
 }
 
 .menu{
     text-align: right;
-    color: #b5b5b4;
     font-size: 20px;
 }
 
-h4{
+a{
+    text-decoration: none;
+    color: #b5b5b4;
+    
+}
+
+h1{
+  font-style: italic;  
+}
+
+.logo h4{
+    font-style: normal;
     font-weight: bold;
     font-size: 20px;
+    
+}
+
+.title{
+    font-style: normal;
 }
 
 .bg{
@@ -42,11 +61,59 @@ h4{
     background-size: cover;
 }
 
-.left-card{
-    background-image: url(img/bc.jpg) ;
-    background-position: 100px 0;
-    height: 50vh;
-    padding-top: 50px;
-    text-align: center;
-    transform: scaleX(-1); 
+.left-card, .right-card{
+    margin: 0;
+    padding: 0;
+}
+
+.s{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.line{
+    border-top: 2px solid black;
+    width: 50px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.line2{
+    border-top: 2px solid black;
+    width: 50px;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.line3{
+    border-top: 2px solid black;
+    width: 50px;
+    margin-top: 25px;
+    
+}
+.left-card img, .right-card img{
+    /* background-image: url(img/bc.jpg) no-repeat; */
+    width: 100%;
+    /* height: 200px; */
+   
+}
+
+h5{
+    color: #909090;
+    font-style: italic;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   /*  padding: 50px 100px; */
+    background-color: #fff;
+}
+
+.img-link{
+    height: 250px;
 }
