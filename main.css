@@ -27,3 +27,12 @@ h4{
     font-weight: bold;
     font-size: 20px;
 }
+
+.bg{
+    padding-top: 50px;
+    text-align: center;
+    height: 70vh;
+    background-image: url(img/bc.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
