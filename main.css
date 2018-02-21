@@ -7,6 +7,11 @@ body{
     padding: 30px;
 }
 
+
+.container{
+    width: 50%;
+}
+
 .header{
     background-color: #fff;
     padding: 20px;
@@ -31,8 +36,17 @@ h4{
 .bg{
     padding-top: 50px;
     text-align: center;
-    height: 70vh;
+    height: 50vh;
     background-image: url(img/bc.jpg) ;
     background-position: center;
     background-size: cover;
+}
+
+.left-card{
+    background-image: url(img/bc.jpg) ;
+    background-position: 100px 0;
+    height: 50vh;
+    padding-top: 50px;
+    text-align: center;
+    transform: scaleX(-1); 
 }
